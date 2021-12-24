@@ -1,0 +1,203 @@
+/*
+COLOR PALETTE
+https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
+#F7FFF7 - almost white
+#343434 - dark gray - almost black
+#2F3061 - blue dark
+#FFE66D - yellow
+#A1C6D7 - blue light
+*/
+
+
+/* Global styles
+------------------------------------*/
+html {
+  box-sizing: border-box;
+  
+}
+
+
+body {
+  color: #343434;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+img {
+  width: 300px;
+}
+a {
+  color: #3d3d3d;
+}
+a:hover {
+  text-decoration: none;
+}
+h1 {
+  font-size: 120px;
+  line-height: 2;
+}
+h2 {
+  font-size: 50px;
+}
+h1, h2 {
+  font-family: 'Montserret', cursive;
+  font-weight: 700;
+  margin: 0;
+}
+.content-wrap {
+  max-width: 800px;
+  width: 85%;
+  margin: -1;
+  padding: 60px 0;
+}
+h3 {
+  margin-bottom: 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border-bottom: none;
+}
+
+.Hello{
+  color: #26098b;
+}
+/* Profile
+------------------------------------*/
+header {
+  background: #0bc0e0;
+  color: #863e31;
+  background-image: url(../images/home-header01.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.head{
+  
+
+  color:#000000
+}
+.grr{
+  scrollbar-arrow-color: #8b0964;
+}
+.Faze{
+  color:#fc2600
+}
+
+
+
+/* Projects
+------------------------------------*/
+.projects {
+  background: #244b05;
+  margin: 0;
+}
+.content-wrap-divider {
+  background: #c4b707;
+  margin: 0;
+  color: #835b2e;
+
+
+}
+
+
+
+/* Work Experience
+------------------------------------*/
+.work-experience {
+  background: #ffffff;
+  margin: 0
+}
+.content-wrap-item-details{
+  background-color: #ffffff;
+}
+.job-item{
+  background: #ffffff;
+  color: #343434;
+  margin-bottom: 0;
+}
+
+/* Education
+------------------------------------*/
+.education {
+  background: #c9fd98;
+  
+
+}
+
+.family {
+  font-style: italic;
+  font-weight: 500;
+  background: #0bc0e0;
+  overflow: hidden;
+  border-bottom: 1px dasshed #000000;
+  padding: 25px 0;
+
+}
+.family img{
+  float: left;
+  margin-right: 20px;
+
+}
+
+/* Contact Info
+------------------------------------*/
+footer {
+  background: #777777;
+  color: #F7FFF7;
+}
+.contact-list {
+  list-style-type: none;
+  padding: 0;
+}
+.contact-list a {
+  padding: 15px;
+  display: inline-block;
+}
+
+
+/* Responsive
+------------------------------------*/
+@media screen and (min-width:750px){
+  header, footer {
+    text-align: center;
+  }
+  .project-item img {
+    float: left;
+    margin-right: 20px;
+  }
+
+  .job-item {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 20px;
+  }
+  .contact-list {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width:749px){
+  h1 {
+    font-size: 75px;
+    line-height: 0.9;
+    margin-bottom: 20px;
+  }
+  h2 {
+    line-height: 1;
+  }
+  .contact-list a {
+    padding: 5px;
+  }
+}
