@@ -1,16 +1,7 @@
-/*
-COLOR PALETTE
-https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
-#F7FFF7 - almost white
-#343434 - dark gray - almost black
-#2F3061 - blue dark
-#FFE66D - yellow
-#A1C6D7 - blue light
-*/
 
 
-/* Global styles
-------------------------------------*/
+
+/* For All */
 html {
   box-sizing: border-box;
   
@@ -72,8 +63,7 @@ h3 {
 .Hello{
   color: #26098b;
 }
-/* Profile
-------------------------------------*/
+/* Profile */
 header {
   background: #0bc0e0;
   color: #863e31;
@@ -96,8 +86,7 @@ header {
 
 
 
-/* Projects
-------------------------------------*/
+/* Projects */
 .projects {
   background: #244b05;
   margin: 0;
@@ -111,9 +100,7 @@ header {
 }
 
 
-
-/* Work Experience
-------------------------------------*/
+/* Work Experience */
 .work-experience {
   background: #ffffff;
   margin: 0
@@ -127,14 +114,13 @@ header {
   margin-bottom: 0;
 }
 
-/* Education
-------------------------------------*/
+/* Education */
 .education {
   background: #c9fd98;
   
 
 }
-
+/* Personal Life */
 .family {
   font-style: italic;
   font-weight: 500;
@@ -150,8 +136,7 @@ header {
 
 }
 
-/* Contact Info
-------------------------------------*/
+/* Contact Info */
 footer {
   background: #777777;
   color: #F7FFF7;
@@ -165,9 +150,7 @@ footer {
   display: inline-block;
 }
 
-
-/* Responsive
-------------------------------------*/
+/* Responsiveness */
 @media screen and (min-width:750px){
   header, footer {
     text-align: center;
